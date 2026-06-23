@@ -92,12 +92,16 @@ nav {
 .logo-text span:first-child {
   display:block;
   font-family:'Poppins',sans-serif;
-  font-weight:800; font-size:14px;
+  font-weight:800; font-size:13px;
   background:linear-gradient(135deg,var(--electric),var(--electric-light));
   -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  white-space:nowrap;
+  line-height:1.2;
 }
 .logo-text span:last-child {
-  font-size:10px; color:var(--text2); letter-spacing:1px;
+  font-size:9px; color:var(--text2); letter-spacing:1px;
+  white-space:nowrap;
+  line-height:1.2;
 }
 .nav-links {
   display:flex; gap:4px; list-style:none;
@@ -880,8 +884,8 @@ footer {
     <a class="logo" href="#home" onclick="navigate('home');return false;" id="logo-link">
       <div class="logo-icon">JMA</div>
       <div class="logo-text">
-        <span>Japan Mobiles</span>
-        <span>& ACCESSORIES</span>
+        <span>Japan Mobiles &amp; Accessories</span>
+<span>WHOLESALE · M.B.DIN</span>
       </div>
     </a>
     <ul class="nav-links">
